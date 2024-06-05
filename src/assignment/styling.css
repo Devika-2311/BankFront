@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+
+}
+.inputs{
+    
+    flex:1;
+   
+}
+.teams-list{
+    flex:1;
+    margin-right:200px;
+}
+.teams-list li {
+    display: flex;
+    align-items: center; 
+}
+
+.teams-list li span {
+    flex-grow: 1; 
+}
+
+.teams-list li .button-group {
+    margin-left: 10px;
+}
